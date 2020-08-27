@@ -55,7 +55,7 @@ def consolidate_cart(cart)
         end
         i += 1
       end
-      item[:count] = count
+      cart[:count] = count
     end
     consolidated << item
     binding.pry
