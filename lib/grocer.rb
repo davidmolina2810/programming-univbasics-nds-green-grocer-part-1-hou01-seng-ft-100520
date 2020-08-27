@@ -48,7 +48,7 @@ def consolidate_cart(cart)
     i = 0
     count = 0
     if find_item_by_name_in_collection(item, cart)
-      while i < cart.length do 
+      while i < cart.length do
         if cart[i] == item
           count += 1
           binding.pry 
