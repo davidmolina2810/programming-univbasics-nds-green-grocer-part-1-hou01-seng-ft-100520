@@ -51,13 +51,15 @@ def consolidate_cart(cart)
       while i < cart.length do
         if cart[i] == item
           count += 1
-          binding.pry 
+          binding.pry
         end
         i += 1
       end
       item[:count] = count
     end
     consolidated << item
+    binding.pry
   end
   consolidated
+  binding.pry 
 end
