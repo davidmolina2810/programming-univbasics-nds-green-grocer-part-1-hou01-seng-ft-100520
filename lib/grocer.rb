@@ -61,5 +61,5 @@ def consolidate_cart(cart)
     binding.pry
   end
   consolidated
-  binding.pry 
+  binding.pry
 end
